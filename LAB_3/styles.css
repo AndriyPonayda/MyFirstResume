@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(123, 191, 212);
+}
+
+.main{
+	width: 1200px;
+	margin-left: 18%;
+	display: flex;
+}
+
+.content{
+	width:1000px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 100px;
+	background: white;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.tag-lab {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.section-lab3 p {
+    margin-top: 10px;
+}
+
+.section-lab3 {
+    border: 1px solid grey;
+    border-radius: 3%;
+    padding: 10px;
+    width: 800px;
+}
+
+.section-lab3 figure {
+    text-align: center;
+}
+
+article.section-lab3 div {
+    display: flex;
+    justify-content: center;
+}
+
+section.section-lab3 img {
+    margin-top: 10px;
+    width: 700px;
+}
+
+article.section-lab3 h1 {
+    font-size: 20px;
+    color: green;
+}
+
+article.section-lab3 p:nth-of-type(1) {
+    background: red;
+    color: white;
+}
+
+article.section-lab3 div figure img {
+    width: 700px;
+}
+
+article.section-lab3 div figure {
+    border: 2px solid black;
+    width: 714px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.lab-menu {
+    margin: -17px;
+    margin-top: 10px;
+}
+
+.lab-menu ul {
+    margin-top: 10px;
+    background-color: #544e60;
+    border: 1px solid #bba3be;
+    width: 200px;
+    padding: 0;
+}
+
+.lab-menu li {
+    padding: 5px;
+    border-bottom: 1px solid #bba3be;
+    list-style-type: none;
+}
+
+.lab-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.lab ul li, ol li, dt, dd {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
