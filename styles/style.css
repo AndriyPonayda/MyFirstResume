@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(123, 191, 212);
+}
+img{
+	display: block;
+	width: 100%;
+}
+
+.main-wrap{
+	width: 1200px;
+	margin-left: 18%;
+	display: flex;
+}
+
+/*----- Start of LEFT-SIDE styles ------*/
+.left-side{
+	
+	width: 300px;
+	padding-top:30px;
+	padding-left:30px;
+	background-color:#1e2939;
+	color:#fff;
+}
+.photo{
+	margin-left:-30px;
+}
+.left-side_title{
+	padding-bottom:10px;
+	font-size:1.2em;
+	font-weight:bold;
+	
+}
+.contacts{
+	font-weight: bold;
+}
+.contacts i{
+	color:#fff;
+}
+.phone{
+	padding-top: 10px;
+}
+.phone a{
+	margin-bottom:10px;
+	text-decoration:none;
+}
+.phone a, .mail a{
+	color:#767681;
+}
+.contacts, .skills{
+	padding-top:40px;
+}
+.skills ul{
+	padding-left:15px;
+}
+.skills ul li::marker{
+	color:#f36c3e;
+}
+
+/*----- End of LEFT-SIDE styles ------*/
+
+/*----- Start of RIGHT-SIDE styles ------*/
+
+.right-side{
+	width:680px;
+	padding-top: 100px;
+	padding-left: 30px;
+	padding-bottom: 100px;
+	background: white;
+}
+
+.developer_type{
+	font-weight: 700;
+	font-size: 1em;
+}
+.name{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 3em;
+	font-weight: 800;
+}
+.about{
+	width: 510px;
+	text-align: justify;
+}
+.portfolio{
+	padding-top: 50px;
+}
+.description_title{
+	font-size: 1.8em;
+	font-weight: 800;
+}
+.links{
+	padding-top: 20px;
+	padding-left: 20px;
+	font-weight: 500;
+	font-size: 0.9em;
+}
+.links a{
+	text-decoration: none;
+	color: black;
+}
+.portfolio ol li::marker{
+	font-size: 1.3em;
+	font-weight: bold
+}
+.portfolio ol li{
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.underline{
+	border-bottom: 2px darkgray dashed;
+	width: 30%;
+	display: inline-block;
+}
+.work_experience{
+	padding-top: 80px;
+}
+.work_name{
+	font-weight: 800;
+	padding-top: 15px;
+	color: black;
+}
+.highlight{
+	color: #f36c3e;
+}
+.date{
+	padding-top: 15px;
+	font-weight: 500;
+	font-size: 0.8em;
+	color: darkgray;
+}
+.horiz{
+	color: black;
+}
+.work_description{
+	width: 600px;
+	font-weight: 500;
+	font-size: 0.9em;
+	padding-top: 10px;
+	text-align: justify;
+}
+.work_description ul{
+	padding-left: 15px;
+}
+.work_description ul li{
+	padding-top: 5px;
+
+}
+.education{
+	padding-top: 50px;
+	font-weight: 800;
+}
+.edu_highlight{
+	color: #f36c3e;
+	padding-top: 10px;
+}
+.profession{
+	padding-top: 15px;
+}
+/*----- End of RIGHT-SIDE styles ------*/
